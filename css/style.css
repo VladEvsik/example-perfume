@@ -1,3 +1,6 @@
+.playfair-display {
+  font-family: "Playfair Display", serif;
+}
 
 html{
     box-sizing: border-box;
@@ -15,8 +18,20 @@ html{
     margin: 0 auto;
 }
 
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;  /*относительные единицы 20/14*/
+    color: #1B1B1B;
+}
+
 .header__inner{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+}
+
+.header__title{
+    
 }
