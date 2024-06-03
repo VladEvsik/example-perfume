@@ -8,6 +8,20 @@ html{
     box-sizing: inherit;
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+}
+
 .container{
     max-width: 1220px;
     padding: 0 10px;
@@ -38,4 +52,9 @@ body{
 font-style: 12px;
 margin-bottom: 10px;
 text-transform: uppercase;
+}
+
+.user-nsv{
+    display: flex;
+    gap: 0 20px;
 }
