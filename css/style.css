@@ -89,15 +89,17 @@ text-transform: uppercase;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 64px;
-    
+    margin-bottom: 30px;
 }
 
 .top-slide__subtitle{
-
+    font-size: 24px;
+    margin-bottom: 30px;
 }
 
 .top-slide__text{
-
+    font-size: 14px;
+    margin-bottom: 30px;
 }
 
 .top-slide__btn{
