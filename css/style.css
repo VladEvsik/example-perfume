@@ -74,11 +74,20 @@ text-transform: uppercase;
     margin-bottom: 150px;
 }
 
+.top-slide{
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
 .top-slide__inner{
+    min-height: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .top-slide__content{
@@ -112,4 +121,16 @@ text-transform: uppercase;
     padding: 21px 120px;
     border: 1px solid #7449BB;
     display: inline-block;
+    margin-left: auto;
 }
+
+.top-slide__btn-new{
+    color: #7449BB;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 21px 50px;
+    border: 1px solid #7449BB;
+    display: inline-block;
+    margin-left: auto;
+}
+
