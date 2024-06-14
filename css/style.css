@@ -134,11 +134,3 @@ text-transform: uppercase;
     margin-left: auto;
 }
 
-.swiper-button-prev:after,
-.swiper-button-next:after {
-    content: none;
-}
-
-.container-arrow{
-    position: relative;
-}
