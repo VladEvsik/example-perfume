@@ -135,6 +135,10 @@ text-transform: uppercase;
 }
 
 .swiper-button-prev:after,
-.swiper-rtl .swiper-button-next:after {
+.swiper-button-next:after {
     content: none;
+}
+
+.container-arrow{
+    position: relative;
 }
